@@ -1,0 +1,103 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:psc="http://podlove.org/simple-chapters" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+
+	<channel>
+		<title>Schall und Rauch</title>
+		<link>https://schallrauch.hoersuppe.de/</link>
+		<description>Zwei Opas erzählen vom Krieg</description>
+		<atom:link rel="self" type="application/rss+xml" title="Schall und Rauch" href="https://schallrauch.hoersuppe.de/" />
+		<atom:link rel="alternate" type="application/rss+xml" title="Schall und Rauch (m4a)" href="https://schallrauch.hoersuppe.de/m4a" />
+		<atom:link rel="alternate" type="application/rss+xml" title="Schall und Rauch (mp3)" href="https://schallrauch.hoersuppe.de/mp3" />
+		<atom:link rel="alternate" type="application/rss+xml" title="Schall und Rauch (opus)" href="https://schallrauch.hoersuppe.de/opus" />
+		<copyright>
+			CC BY-SA 3.0
+			https://creativecommons.org/licenses/by-sa/3.0/de/
+		</copyright>
+		<generator>bob 0.0.1</generator>
+		<itunes:image href="https://schallrauch.hoersuppe.de/feedimages/itunes1400.png" />
+		<itunes:block>yes</itunes:block>
+		<itunes:author>Alexander und Christian</itunes:author>
+		<itunes:summary>Alexander und Christian, zwei mittelreife Früchte der 70er,sozialisiert in den 80ern veröffentlichen ihre monatlichen Schwätzchen auf der Parkbank.</itunes:summary>
+		<itunes:subtitle>Zwei Opas erzählen vom Krieg</itunes:subtitle>
+		<itunes:explicit>no</itunes:explicit>
+		<language>de-DE</language>
+		<itunes:owner>
+			<itunes:email>eazy@eazy-living.de</itunes:email>
+			<itunes:name>Alexander und Christian</itunes:name>
+		</itunes:owner>
+<itunes:category text="Society &amp; Culture"/>
+<itunes:category text="Arts"><itunes:category text="Food"/></itunes:category>
+		<item>
+	<title>Schall und Rauch – Nullkommanix</title>
+	<link>https://schallrauch.hoersuppe.de//001</link>
+	<pubDate>Sat, 09 Feb 2013 12:32:27 +0000</pubDate>
+	<guid isPermaLink="false">001</guid>
+	<description><![CDATA[Die Nullnummer - mit nix]]></description>
+	<content:encoded><![CDATA[Die Nullnummer - mit nix]]></content:encoded>
+	<itunes:subtitle>Die Nullnummer - mit nix</itunes:subtitle>
+	<itunes:summary></itunes:summary>
+	<enclosure url="https://cdn.podseed.org/schallundrauch/" length="" type="audio/ogg;codecs=opus" />
+</item><item>
+	<title>Wir hatten ja nix</title>
+	<link>https://schallrauch.hoersuppe.de//002</link>
+	<pubDate>Sat, 23 Feb 2013 11:37:19 +0000</pubDate>
+	<guid isPermaLink="false">002</guid>
+	<description><![CDATA[Damals war alles anders. Wir hatten nicht mal jpg und Chris Huelsbeck macht tolle Musik.]]></description>
+	<content:encoded><![CDATA[Damals war alles anders. Wir hatten nicht mal jpg und Chris Huelsbeck macht tolle Musik.]]></content:encoded>
+	<itunes:subtitle>Damals war alles anders. Wir hatten nicht mal jpg und Chris Huelsbeck macht tolle Musik.</itunes:subtitle>
+	<itunes:summary></itunes:summary>
+	<enclosure url="https://cdn.podseed.org/schallundrauch/" length="" type="audio/ogg;codecs=opus" />
+</item><item>
+	<title>Schall und Rauch 3: Applecrunch dezimieren</title>
+	<link>https://schallrauch.hoersuppe.de//003</link>
+	<pubDate>Sat, 09 Mar 2013 17:56:03 +0000</pubDate>
+	<guid isPermaLink="false">003</guid>
+	<description><![CDATA[Alexander hat mich mal wieder angerufen. Wir sprechen über die alten Zeiten, die nicht immer gut, aber oft nett waren, über G-Punkte, Klassenfahrten und Korinther, Priester und Bücher.]]></description>
+	<content:encoded><![CDATA[Alexander hat mich mal wieder angerufen. Wir sprechen über die alten Zeiten, die nicht immer gut, aber oft nett waren, über G-Punkte, Klassenfahrten und Korinther, Priester und Bücher.]]></content:encoded>
+	<itunes:subtitle>Alexander hat mich mal wieder angerufen. Wir sprechen über die alten Zeiten, die nicht immer gut, aber oft nett waren, über G-Punkte, Klassenfahrten und Korinther, Priester und Bücher.</itunes:subtitle>
+	<itunes:summary></itunes:summary>
+	<enclosure url="https://cdn.podseed.org/schallundrauch/" length="" type="audio/ogg;codecs=opus" />
+</item><item>
+	<title>Goethe in Halberstadt</title>
+	<link>https://schallrauch.hoersuppe.de//004</link>
+	<pubDate>Fri, 26 Apr 2013 06:49:39 +0000</pubDate>
+	<guid isPermaLink="false">004</guid>
+	<description><![CDATA[Goethe war in Halberstadt und wir vor den Mikrofonen. Endlich!]]></description>
+	<content:encoded><![CDATA[Goethe war in Halberstadt und wir vor den Mikrofonen. Endlich!]]></content:encoded>
+	<itunes:subtitle>Goethe war in Halberstadt und wir vor den Mikrofonen. Endlich!</itunes:subtitle>
+	<itunes:summary></itunes:summary>
+	<enclosure url="https://cdn.podseed.org/schallundrauch/" length="" type="audio/ogg;codecs=opus" />
+</item><item>
+	<title>live is live</title>
+	<link>https://schallrauch.hoersuppe.de//005</link>
+	<pubDate>Sun, 12 May 2013 16:55:44 +0000</pubDate>
+	<guid isPermaLink="false">005</guid>
+	<description><![CDATA[Wir haben es im April mal live versucht. Das gefiel uns anfangs nicht wirklich, nun hab ich aber dann doch mal ein paar Minuten Zeit gefunden, das zusammen zu schneiden.]]></description>
+	<content:encoded><![CDATA[Wir haben es im April mal live versucht. Das gefiel uns anfangs nicht wirklich, nun hab ich aber dann doch mal ein paar Minuten Zeit gefunden, das zusammen zu schneiden.]]></content:encoded>
+	<itunes:subtitle>Wir haben es im April mal live versucht. Das gefiel uns anfangs nicht wirklich, nun hab ich aber dann doch mal ein paar Minuten Zeit gefunden, das zusammen zu schneiden.</itunes:subtitle>
+	<itunes:summary></itunes:summary>
+	<enclosure url="https://cdn.podseed.org/schallundrauch/" length="" type="audio/ogg;codecs=opus" />
+</item><item>
+	<title>Kaffeekiffer auf Sylt</title>
+	<link>https://schallrauch.hoersuppe.de//006</link>
+	<pubDate>Sat, 29 Jun 2013 08:00:43 +0000</pubDate>
+	<guid isPermaLink="false">006</guid>
+	<description><![CDATA[Die Ruhe vor der Sommerpause! Der Sturm im Marillenschnapsglas und gekifft wird auch, aber nur auf Sylt.]]></description>
+	<content:encoded><![CDATA[Die Ruhe vor der Sommerpause! Der Sturm im Marillenschnapsglas und gekifft wird auch, aber nur auf Sylt.]]></content:encoded>
+	<itunes:subtitle>Die Ruhe vor der Sommerpause! Der Sturm im Marillenschnapsglas und gekifft wird auch, aber nur auf Sylt.</itunes:subtitle>
+	<itunes:summary></itunes:summary>
+	<enclosure url="https://cdn.podseed.org/schallundrauch/" length="" type="audio/ogg;codecs=opus" />
+</item><item>
+	<title>Seid fruchtbar…</title>
+	<link>https://schallrauch.hoersuppe.de//007</link>
+	<pubDate>Tue, 06 Aug 2013 12:33:04 +0000</pubDate>
+	<guid isPermaLink="false">007</guid>
+	<description><![CDATA[Es ist viel passiert. Wirklich. Es wurde geboren, geurlaubt und geredet. Dieses Mal ohne Kapitelmarken, sorry.]]></description>
+	<content:encoded><![CDATA[Es ist viel passiert. Wirklich. Es wurde geboren, geurlaubt und geredet. Dieses Mal ohne Kapitelmarken, sorry.]]></content:encoded>
+	<itunes:subtitle>Es ist viel passiert. Wirklich. Es wurde geboren, geurlaubt und geredet. Dieses Mal ohne Kapitelmarken, sorry.</itunes:subtitle>
+	<itunes:summary></itunes:summary>
+	<enclosure url="https://cdn.podseed.org/schallundrauch/sur007.opus" length="71637868" type="audio/ogg;codecs=opus" />
+</item>
+	
+	</channel>
+	
+</rss>

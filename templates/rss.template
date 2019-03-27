@@ -1,0 +1,38 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:psc="http://podlove.org/simple-chapters" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+
+	<channel>
+		<title>{{title}}</title>
+		<link>{{baseurl}}</link>
+		<description>{{description}}</description>
+		<atom:link rel="self" type="application/rss+xml" title="{{title}}" href="{{baseurl}}" />
+		{{#bformats}}
+		<atom:link rel="alternate" type="application/rss+xml" title="{{title}} ({{.}})" href="{{baseurl}}{{.}}" />
+		{{/bformats}}
+		{{#licensename}}<copyright>
+			{{licensename}}
+			{{#licenseurl}}{{licenseurl}}{{/licenseurl}}
+		</copyright>
+		{{/licensename}}
+		<generator>bob {{_bobversion}}</generator>
+		<itunes:image href="{{image}}" />
+		{{#itunesblock}}<itunes:block>{{itunesblock}}</itunes:block>{{/itunesblock}}
+		<itunes:author>{{author}}</itunes:author>
+		<itunes:summary>{{#_substr}}summary:0:4000{{/_substr}}</itunes:summary>
+		<itunes:subtitle>{{#_substr}}description:0:255{{/_substr}}</itunes:subtitle>
+		<itunes:explicit>{{explicit}}</itunes:explicit>
+		<language>{{language}}</language>
+		<itunes:owner>
+			<itunes:email>{{email}}</itunes:email>
+			<itunes:name>{{author}}</itunes:name>
+		</itunes:owner>
+		{{#category}}
+			{{#_categories}}
+						
+			{{/_categories}}
+		{{/category}}
+
+		{{items}}
+	
+	</channel>
+	
+</rss>

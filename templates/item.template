@@ -1,0 +1,11 @@
+<item>
+	<title>{{episode.title}}</title>
+	<link>{{baseurl}}/{{episode.slug}}</link>
+	<pubDate>{{episode.date}}</pubDate>
+	<guid isPermaLink="false">{{episode.slug}}</guid>
+	<description><![CDATA[{{episode.description}}]]></description>
+	<content:encoded><![CDATA[{{episode.article}}]]></content:encoded>
+	<itunes:subtitle>{{#_substr}}episode[description]:0:255{{/_substr}}</itunes:subtitle>
+	<itunes:summary>{{#_substr}}episode[summary]:0:4000{{/_substr}}</itunes:summary>
+	<enclosure url="{{mediabaseurl}}{{episode.encurl}}" length="{{episode.enclen}}" type="{{episode.enctype}}" />
+</item>
