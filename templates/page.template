@@ -2,10 +2,20 @@
 <html lang="de-DE" dir="ltr">
 	<head>
 		<title>{{title}}</title>
-		<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.6.6/dist/terminal.min.css" />
+		<style type="text/css">
+			{{css}}
+			body {margin:2em}
+		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	
 	<body>
+		<div class="pure-g">
+			<div class="pure-u-1-2"><p>	<img width="400" class="pure-img" src="{{baseurl}}{{image}}"></p></div>
+			<div class="pure-u-1-2"><h3>{{description}}</h3><h5>{{summary}}</h5></div>
+		</div>
+		<hr/>
+		
 		{{webitems}}
 	</body>
 </html>

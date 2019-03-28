@@ -29,6 +29,14 @@ _categories() {
 	done
 }
 
+_dateforpage() {
+
+	var=$(cat)
+	pubdate=${!var}
+	echo $(date -d"$pubdate" "+%x")
+	
+}
+
 _readepisode() {
 
 	arg=''
@@ -94,8 +102,13 @@ while read line || [ -n "$line" ]
 	
 done < feed.cfg
 
+[ ! -z "$language" ] && export LC_ALL="${language//-/_}.utf-8"
+
+
 declare -a bformats=( $formats )
 . ./mo
+
+declare css=$(cat assets/*.css)
 
 echo -e "Processing $title"
 
@@ -121,3 +134,4 @@ for format in ${bformats[@]}; do
 done
 
 cat templates/page.template | mo >"$localwebpath"/index.html
+cp -rf assets "$localwebpath"/

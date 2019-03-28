@@ -2,7 +2,11 @@
 <html lang="de-DE" dir="ltr">
 	<head>
 		<title>{{title}}</title>
-		<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.6.6/dist/terminal.min.css" />
+		<style type="text/css">
+			{{css}}
+			body {margin:2em}
+		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	
 	<body>
