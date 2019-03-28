@@ -1,0 +1,9 @@
+
+	<h1>{{episode.title}}</h1>
+	<h3>{{episode.description}}</h3>
+	<span>{{episode.date}}</span>
+	<div>{{episode.article}}</div>
+	
+	
+	<a href="{{mediabaseurl}}{{episode.encurl}}">Download {{format}}</a>
+	<hr/>

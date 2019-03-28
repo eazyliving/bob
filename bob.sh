@@ -97,17 +97,27 @@ done < feed.cfg
 declare -a bformats=( $formats )
 . ./mo
 
-for format in ${bformats[@]}; do
+echo -e "Processing $title"
 
+for format in ${bformats[@]}; do
+	echo -e "\ncreating feed for $format"
 	declare -A episode=()
 	declare items=''
+	declare webitems=''
 	for file in episodes/*.epi
 	do
 		slug=$(basename $file .epi|awk -F '_' '{print $1}')
 		_readepisode $file
 		episode[slug]=$slug
+		echo -e "\tepisode ${episode[title]}"
 		items="$items"$(cat templates/item.template | mo)
+		webitem=$(cat templates/item_web.template | mo)
+		webitems="$webitems""$webitem"
+		cat templates/page_episode.template | mo >"$localwebpath"/"$slug".html
+		
 	done
-
-	cat templates/rss.template | mo >feeds/"$format"
+	
+	cat templates/rss.template | mo >"$localwebpath"/feed/"$format"
 done
+
+cat templates/page.template | mo >"$localwebpath"/index.html
