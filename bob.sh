@@ -119,7 +119,7 @@ for format in ${bformats[@]}; do
 	declare webitems=''
 	for file in episodes/*.epi
 	do
-		slug=$(basename $file .epi|awk -F '_' '{print $1}')
+		slug=$(basename $file .epi)
 		_readepisode $file
 		episode[slug]=$slug
 		echo -e "\tepisode ${episode[title]}"
