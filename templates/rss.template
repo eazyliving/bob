@@ -14,7 +14,7 @@
 		</copyright>
 		{{/licensename}}
 		<generator>bob {{_bobversion}}</generator>
-		<itunes:image href="{{image}}" />
+		<itunes:image href="{{baseurl}}{{image}}" />
 		{{#itunesblock}}<itunes:block>{{itunesblock}}</itunes:block>{{/itunesblock}}
 		<itunes:author>{{author}}</itunes:author>
 		<itunes:summary>{{#_substr}}summary:0:4000{{/_substr}}</itunes:summary>
